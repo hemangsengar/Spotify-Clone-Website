@@ -17,6 +17,9 @@ body {
     width: 350px;
     border-radius: 1rem; /* 1rem = 8px*/
     margin-right: 0.5rem;
+    
+    
+    
 }
 
 .main-content {
@@ -28,9 +31,9 @@ body {
 }
 
 .music-player {
-    background-color: black;
+    background-color: yellow;
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
     height: 72px;
 }
@@ -79,7 +82,7 @@ a {
     height: 100%;
     margin-top: 0.5rem;
     padding: 0.5rem 0.25rem;
-
+    
 }
 
 .options{
@@ -216,4 +219,42 @@ a {
     height: 30%;
     border-top: 1px solid white;
     opacity: 0.4;
+}
+
+.music-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.album{
+    width: 25%;
+    background-color: red;
+}
+.player{
+    width: 50%;
+    background-color: blue;
+}
+
+
+
+
+.controls{
+    width: 25%;
+    background-color: pink;
+}
+
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.player-control-icon{
+    height: 1rem;
+    justify-content: space-evenly;
+    margin-right: 2rem;
 }
